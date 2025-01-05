@@ -2,8 +2,10 @@
   "name": "zenn",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "packageManager": "pnpm@9.15.2",
   "scripts": {
+    "prepare": "husky",
     "preview": "zenn preview",
     "new:article": "zenn new:article",
     "new:book": "zenn new:book",
@@ -15,6 +17,8 @@
     "zenn-cli": "^0.1.158"
   },
   "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.3.0",
     "prettier": "^3.4.2"
   }
 }
