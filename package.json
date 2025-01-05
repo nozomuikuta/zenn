@@ -2,15 +2,19 @@
   "name": "zenn",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@8.15.1",
+  "packageManager": "pnpm@9.15.2",
   "scripts": {
     "preview": "zenn preview",
     "new:article": "zenn new:article",
     "new:book": "zenn new:book",
     "list:articles": "zenn list:articles",
-    "list:books": "zenn list:books"
+    "list:books": "zenn list:books",
+    "format": "prettier --write ."
   },
   "dependencies": {
-    "zenn-cli": "^0.1.151"
+    "zenn-cli": "^0.1.158"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
   }
 }
